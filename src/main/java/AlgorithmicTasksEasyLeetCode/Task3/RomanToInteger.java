@@ -49,7 +49,6 @@ public class RomanToInteger {
                 C = 100,
                 D = 500,
                 M = 1000;
-
         if(s.contains("M")){
             for(int i = 0; i<temp.length;i++){
                 if(temp[i]=='M')count++;
