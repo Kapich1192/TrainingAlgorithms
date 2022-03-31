@@ -34,7 +34,6 @@ Constraints:
 operations[i] will be either "++X", "X++", "--X", or "X--".
 */
 public class FinaValueOfVariableAfterPerformingOperations {
-
     public static int finalValueAfterOperations(String[] operations) {
         int x =0;
         for(int i = 0; i<operations.length;i++){
