@@ -26,7 +26,7 @@ public class Task1 {
     }
   public static int ref(long l,long r){
         int count = 0;
-        String temp = "";
+        String temp;
         for(long i = l;i<=r;i++){
             temp = String.valueOf(i);
             if(scan(temp))count++;
@@ -36,7 +36,10 @@ public class Task1 {
 public static boolean scan(String kkk){
         int count = 0;
         char[] jjj = kkk.toCharArray();
-        for(int i = 0; i<jjj.length;i++) {if(jjj[0]==jjj[i])count++;else return false;}
-        if (count==jjj.length)return true;else return false;
+    for (char c : jjj) {
+        if (jjj[0] == c) count++;
+        else return false;
+    }
+    return count == jjj.length;
 }
 }
