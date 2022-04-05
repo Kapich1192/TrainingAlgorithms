@@ -14,7 +14,7 @@ public class Training7 {
             System.out.print(" " + list.get(i));
         }
     }
-    public static ArrayList<Integer> bubbleSorting(ArrayList<Integer> list){
+    public static void bubbleSorting(ArrayList<Integer> list){
         Integer temp;
         for(int i =0; i<list.size();i++){
             for(int j = i;j<list.size();j++){
@@ -25,6 +25,5 @@ public class Training7 {
                 }
             }
         }
-        return list;
     }
 }
