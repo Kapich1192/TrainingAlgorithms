@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Training7 {
     public static void main(String[] args) {
+        String lll = "ddd"; lll.co
         ArrayList<Integer> list = new ArrayList<>(){{
             for(int i = 0;i<30;i++){
                 add((int)(Math.random()*1000));
