@@ -15,7 +15,6 @@ class BubbleSortingTraining14 {
             System.out.printf(" %d", numbers[i]);
         }
     }
-
     public static void bubbleSort(int[] array) {
         int temp;
         for (int i = 0; i < array.length; i++) {
@@ -28,5 +27,4 @@ class BubbleSortingTraining14 {
             }
         }
     }
-
 }
